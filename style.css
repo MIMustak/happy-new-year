@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    margin: 0px 99px 120px 99px;
+}
+p{
+    margin: 0;
+}
+
+/* Banner Section */
+#banner-section{
+    background-image: url(images/bannerimage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    height: 600px;
+    color: white;
+    margin: 50px 99px 120px 99px;
+}
+#banner-text{
+    text-align: center;
+    padding: 200px 0;
+    }
+#banner-text h1 {
+    font-size: 50px;
+    margin: 5px;
+}    
+#banner-text p {
+    font-size: 20px;
+}    
+
+
+/* ////////////// Discount Section //////////// */
+#discount{
+    text-align: center;
+}
+.groceries{
+    margin: 30px 0;
+}
+#discount h1{
+    font-size: 50px;
+    margin: 10px;
+}
+#discount img{
+    width: 800px;
+    height: 500px;
+}
+.color-FF0000{
+color: #FF0000 ;
+}
+
+
+/* ////////////// Midnight Section //////////// */
+#midnight{
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    text-align:left ;
+    color: aliceblue;
+    display: flex;
+}
+#midnight h1 {
+    font-size: 50px;
+}
+#midnight div {
+    width: 700px;
+    height: 400px;
+    margin: 100px 100px 100px 126px;
+}
+#midnight button{
+    background:none;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+} 
+
+
+/* ////////////// Gifts Section //////////// */
+.effect:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+#gifts h2{
+    font-size: 40px;
+}
+.gifts-text{
+    width: 900px;
+}
+#gifts img {
+    width: 421px;
+}
+.img-margin1 {
+    margin: 12px 24px 12px 24px;
+}
+.img-margin2 {
+    margin: 12px 0 12px 0;
+}
+
+
+/* ////////////// Subscribe Section //////////// */
+#subscribe {
+    height: 616px;
+    background-color: #e9cfcf;
+}
+#subscribe >div {
+    text-align: center;
+    width: 896px;
+    margin: 0 212px ;
+    padding: 80px 0;
+}
+#subscribe-btn {
+    margin-top: 48px;
+}
+#subscribe-btn input {
+   
+    height: 72px;
+    border: 0px solid white;
+    border-radius: 35px 0 0 35px;
+    padding: 0 180px;
+}
+#subscribe-btn button {
+    color: white;
+    background-color: #FF0000;
+    width: 210px;
+    height: 72px;
+    border: 2px solid #FF0000;
+    border-radius: 0 35px 35px 0;
+    margin: 0;
+}
+
+
+/* ////////////// Subscribe Section //////////// */
+footer{
+    background-color: black;
+    height: 370px;
+    padding: 120px 120px;
+    margin: 0;
+    color: white;
+}
+.contact, .unsubscribe {
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact img {
+    width: 17px;
+    height: 17px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.social {
+    text-align: center;
+    margin: 98px 0;
+}
+.social img {
+    margin: 20px;
+}
+
+
+.unsubscribe button  {
+    background-color: black;
+    border: 0;
+    color: white;
+}
