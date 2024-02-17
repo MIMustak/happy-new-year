@@ -147,6 +147,11 @@ footer{
     justify-content: space-between;
 
 }
+hr {
+    color: black;
+    margin: 50px 0;
+    background-color: black;
+}
 .contact img {
     width: 17px;
     height: 17px;
@@ -157,7 +162,7 @@ a {
 }
 .social {
     text-align: center;
-    margin: 98px 0;
+    margin: 78px 0;
 }
 .social img {
     margin: 20px;
